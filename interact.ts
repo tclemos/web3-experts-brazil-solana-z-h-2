@@ -5,7 +5,7 @@ import * as path from "path";
 import * as os from "os";
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const IDL = require("../target/idl/my_counter.json");
+const IDL = require("./target/idl/my_counter.json");
 
 async function main() {
   const connection = new anchor.web3.Connection(
